@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/github.io/2022/10/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>雪山视差</title>
+    <url>/github.io/2022/10/22/moutain/</url>
+    <content><![CDATA[<p>学习笔记day01</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">    html,</span><br><span class="line">    body &#123;</span><br><span class="line">      margin: 0;</span><br><span class="line">      padding: 0;</span><br><span class="line">      height: 200vh;</span><br><span class="line">      overflow-x: hidden;</span><br><span class="line">      scrollbar-width: none;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .background &#123;</span><br><span class="line">      background-image: url(&quot;img/motain.png&quot;);</span><br><span class="line">      background-size: cover;</span><br><span class="line">      background-position: 50% 50%;</span><br><span class="line">      height: 200vh;</span><br><span class="line">      font: 900 39rem &#x27;&#x27;;</span><br><span class="line">      -webkit-background-clip: text;</span><br><span class="line">      -webkit-text-fill-color: transparent;</span><br><span class="line">      position: relative;</span><br><span class="line">      text-align: center;</span><br><span class="line">      overflow: hidden;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .background::before &#123;</span><br><span class="line">      content: &#x27;&#x27;;</span><br><span class="line">      background-size: cover;</span><br><span class="line">      background-image: inherit;</span><br><span class="line">      background-position: 50% 50%;</span><br><span class="line">      position: absolute;</span><br><span class="line">      top: 0;</span><br><span class="line">      left: 0;</span><br><span class="line">      bottom: 0;</span><br><span class="line">      right: 0;</span><br><span class="line">      z-index: -99;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    h1 &#123;</span><br><span class="line">      position: absolute;</span><br><span class="line">      text-align: center;</span><br><span class="line">      width: 100%;</span><br><span class="line">      letter-spacing: 10px;</span><br><span class="line">      color: #fff;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    h2 &#123;</span><br><span class="line">      position: absolute;</span><br><span class="line">      letter-spacing: 2px;</span><br><span class="line">      top: 120vh;</span><br><span class="line">      width: 60%;</span><br><span class="line">      color: #fff;</span><br><span class="line">      left: 50%;</span><br><span class="line">      transform: translate(-50%);</span><br><span class="line">      padding: 30px;</span><br><span class="line">      background-color: rgba(0, 0, 0, .3);</span><br><span class="line">    &#125;</span><br><span class="line">  &lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">  &lt;h1&gt;bilibili&lt;br /&gt;青衣&lt;/h1&gt;</span><br><span class="line">  &lt;div class=&quot;background&quot;&gt;</span><br><span class="line">    &lt;span&gt;Fate&lt;/span&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;h2&gt;Minutes later, Qin Bo’s kite was in the sky, but mine was not. I was so disappointed that I wanted to give up.</span><br><span class="line">    But I thought how disgraceful I was. So I asked Qin Bo to exchange the kites. Oh! His kite was wonderful. It was so</span><br><span class="line">    light that it flew higher than all the other kites. He told me why my kite could not fly because it was made</span><br><span class="line">    roughly; the head was heavy, and the end was light. I agreed and made up my mind to make a new kite that would fly</span><br><span class="line">    high in the sky.&lt;/h2&gt;</span><br><span class="line"></span><br><span class="line">  &lt;script&gt;</span><br><span class="line">    const background = document.querySelector(&quot;.background&quot;)</span><br><span class="line"></span><br><span class="line">    document.addEventListener(&#x27;scroll&#x27;, () =&gt; &#123;</span><br><span class="line">      const scrollY = window.scrollY</span><br><span class="line">      console.log(scrollY);</span><br><span class="line">      if (scrollY !== 0) &#123;</span><br><span class="line">        background.style.backgroundPosition = `calc(50% + $&#123;scrollY&#125;px )calc(50% + $&#123;scrollY&#125;px)`</span><br><span class="line">        console.log(background.style.backgroundPosition);</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        background.style.backgroundPosition = &#x27;&#x27;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果图：</p>
+<p><img src="G:\bk\qy\source\test\moutain.png"></p>
+]]></content>
+      <categories>
+        <category>CSS</category>
+        <category>Html</category>
+      </categories>
+  </entry>
+</search>
